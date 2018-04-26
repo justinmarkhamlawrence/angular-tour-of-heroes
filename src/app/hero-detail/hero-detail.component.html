@@ -4,7 +4,17 @@
   <div><span>id:</span>{{ hero.id }}</div>
   <div>
     <label>name:
-      <input [(ngModel)]="hero.name" placeholder="name">
+      <!-- <input [(ngModel)]="hero.name" placeholder="name"> -->
+      <div class="form">
+        <div class="dx-fieldset">
+            <div class="dx-field">
+                <div class="dx-field-label"></div>
+                <div class="dx-field-value">
+                    <dx-text-box [(ngModel)]="hero.name" placeholder="name"></dx-text-box>
+                </div>
+            </div>
+          </div>
+        </div>
     </label>
       
   </div>

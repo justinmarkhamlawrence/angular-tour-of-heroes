@@ -1,7 +1,7 @@
 <div id="search-component">
   <h4>Hero Search</h4>
 
-  <input #searchBox id="search-box" (keyup)="search(searchBox.value)"/>
+  <dx-text-box #searchBox id="search-box" (keyup)="search(searchBox.value)"></dx-text-box>
 
   <ul class="search-result">
     <li *ngFor="let hero of heroes$ | async">
