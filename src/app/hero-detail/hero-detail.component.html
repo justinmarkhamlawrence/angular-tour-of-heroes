@@ -4,23 +4,10 @@
   <div><span>id:</span>{{ hero.id }}</div>
   <div>
     <label>name:
-      <!-- <input [(ngModel)]="hero.name" placeholder="name"> -->
-      <div class="form">
-        <div class="dx-fieldset">
-            <div class="dx-field">
-                <div class="dx-field-label"></div>
-                <div class="dx-field-value">
-                    <dx-text-box [(ngModel)]="hero.name" placeholder="name"></dx-text-box>
-                </div>
-            </div>
-          </div>
-        </div>
-    </label>
-      
+      <dx-text-box [(ngModel)]="hero.name" placeholder="name"></dx-text-box>
+    </label>  
   </div>
-
-  <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
-
+  <dx-button type="back" (onClick)="onClick()"></dx-button>
+  <dx-button text="save" type="default" (onClick)="save()"></dx-button>
 </div>
   

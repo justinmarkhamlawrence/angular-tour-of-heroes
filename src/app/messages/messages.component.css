@@ -33,3 +33,11 @@ button.clear {
   color: #888;
   margin-bottom: 12px;
 }
+.dx-field {
+  max-width: 400px;
+  float: left;
+  padding-left: 40px;
+}
+#message {
+  margin-top: 20px;
+}

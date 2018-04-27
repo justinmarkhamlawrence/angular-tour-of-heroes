@@ -15,7 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
-import { DxTextBoxModule } from 'devextreme-angular';
+import { DxTextBoxModule, DxButtonModule } from 'devextreme-angular';
 
 
 @NgModule({
@@ -32,6 +32,7 @@ import { DxTextBoxModule } from 'devextreme-angular';
     FormsModule,
     AppRoutingModule,
     DxTextBoxModule,
+    DxButtonModule,
     HttpClientModule,
      
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests

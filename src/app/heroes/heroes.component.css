@@ -71,3 +71,12 @@ button.delete {
   background-color: gray !important;
   color: white;
 }
+
+.dx-field {
+  float: left;
+  padding-left: 30px;
+}
+
+#heroName {
+  max-width: 200px;
+}
